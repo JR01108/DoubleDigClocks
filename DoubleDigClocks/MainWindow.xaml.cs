@@ -67,6 +67,7 @@ namespace DoubleDigClocks
                 ChangeFormatButton.Content = "AM/PM";
             }
             time.ChangeFormat();
+            ShowTime();
         }
     }
 }

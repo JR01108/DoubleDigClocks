@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:DoubleDigClocks"
         mc:Ignorable="d"
         Title="Двоичные часы" Height="150" Width="300"
-        Loaded="MainWindow_Loaded">
+        Loaded="MainWindow_Loaded"
+        ResizeMode="NoResize">
     <Grid Margin="0,0,0,-1">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="26*"/>
